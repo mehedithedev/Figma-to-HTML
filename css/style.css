@@ -1,0 +1,281 @@
+/* CSS rest */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    /* width: 20%; */
+    float: left ;
+    /* padding:10px; */
+    /* display: flex; */
+    /* padding: 10px 20px; */
+    /* padding-bottom: 15px; */
+    padding-top: 5px;
+}
+.logo img{
+    padding-right: 5px;
+}
+.menu{
+    width: 80%;
+    float: left;
+    margin: auto 0;
+    padding-top: 10px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    /* padding-bottom: 20px; */
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.menu ul li:hover a{
+    background-color: whitesmoke;
+    color: black;
+}
+nav{
+    /* background-color: rgba(255, 255, 255, .15);   */
+    background-color: rgba(8, 8, 8, 0.31);
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    /* font-weight: bold; */
+    background: none;
+}
+nav i{
+    color: whitesmoke;
+}
+
+nav{
+    color: aliceblue;
+}
+nav{
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+    background-color:rgba(1, 1, 1, 0.7);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    /* position: fixed; */
+    font-size: 25px;
+    z-index: 9;
+}
+
+#banner{
+    background: url(../images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 500px;
+}
+.banner_content{
+    color:white;
+    padding: 20px;
+    /* width: 50%; */
+}
+.banner_content h1{
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 112px;
+    padding-top: 50px;
+}
+.banner_content h3{
+    padding-top: 30px;
+}
+.banner_content h4{
+    margin-top: 30px;
+}
+.content_background{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    text-align: center;
+    border-left: 2px solid white;
+}
+.banner_timer{
+    text-align: center;
+    color: whitesmoke;
+}
+.banner_timer h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.banner_timer ul{
+    display: flex;
+    
+}
+.days ul li{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.time_count{
+    text-align: center;
+}
+.time_count ul li{
+    padding-left: 54px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    color: black;
+    text-align: center;
+}
+.banner_timer a{
+    margin: 50px;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+
+#about h1{
+    font-size: 50px;
+
+}
+.about_content{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.about_heading{
+    display: flex;
+}
+.about_heading h1{
+    /* display: inline; */
+    padding-right: 10px;
+}
+.about_heading h1:last-child{
+    color: #00387A;
+}
+#about hr{
+    font-weight: 100;
+}
+.about_images{
+    position: relative;
+}
+.img-1{
+    background: url(../images/img9.jpg);
+    height: 200px;
+    width: 400px;
+    z-index: 5;
+    top:50px;
+    position: absolute;
+    right: 100px;
+}
+.img-2{
+    background: url(../images/img4.jpg);
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left:250px;
+    z-index: 8;
+
+}
+.img-3{
+    background: url(../images/img7.jpg);
+    height: 200px;
+    width: 400px;
+    top: 200px;
+    left: 150px;
+    z-index: 1;
+    position: absolute;
+}
+#booking{
+    margin-top: 250px;
+    text-align: center;
+}
+
+#about h1{
+    font-size: 50px;
+
+}
+.booking_content{
+    padding-top: 60px;
+    font-size: 25px;
+}
+.booking_heading{
+    display: flex;
+    /* justify-content: center; */
+}
+.booking_heading h1{
+    /* display: inline; */
+    padding-right: 10px;
+}
+.booking_heading h1:last-child{
+    color: #00387A;
+}
+#booking hr{
+    font-weight: 100;
+}
+
+.booking_form{
+    background: url(../images/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 600px;
+}
+.booking_form button{
+    padding: 20px;
+    font-size: 30px;
+
+}
+.mb-3{
+    margin-top: 20px;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+}
